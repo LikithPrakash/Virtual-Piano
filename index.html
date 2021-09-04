@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piano</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div align="center" class="piano">
+        <marquee direction="right">
+            <h1><i>P I A N O </i></h1>
+        </marquee>
+    </div><br><br><br><br><br><br>
+
+
+
+
+    <div class="board">
+
+        <div data-key="A" class="white button">
+            <h1>A</h1>
+
+        </div>
+
+
+        <div data-key="Ab" class="black button"></div>
+        <div data-key="B" class="white button">
+            <h1>B</h1>
+        </div>
+        <div data-key="Bb" class="black button"></div>
+        <div data-key="C" class="white button">
+            <h1>C</h1>
+        </div>
+        <div data-key="D" class="white button">
+            <h1>D</h1>
+        </div>
+        <div data-key="Db" class="black button"></div>
+        <div data-key="E" class="white button">
+            <h1>E</h1>
+        </div>
+        <div data-key="Eb" class="black button"></div>
+        <div data-key="F" class="white button">
+            <h1>F</h1>
+        </div>
+        <div data-key="G" class="white button">
+            <h1>G</h1>
+        </div>
+        <div data-key="Gb" class="black button"></div>
+        <div data-key="Gb" class="white button">
+            <h1>Gb</h1>
+
+        </div>
+    </div>
+    <audio src="a.mp3" id="A"></audio>
+    <audio src="Ab.mp3" id="Ab"></audio>
+    <audio src="b.mp3" id="B"></audio>
+    <audio src="Bb.mp3" id="Bb"></audio>
+    <audio src="c.mp3" id="C"></audio>
+    <audio src="d.mp3" id="D"></audio>
+    <audio src="Db.mp3" id="Db"></audio>
+    <audio src="e.mp3" id="E"></audio>
+    <audio src="Eb.mp3" id="Eb"></audio>
+    <audio src="f.mp3" id="F"></audio>
+    <audio src="a.mp3" id="G"></audio>
+    <audio src="Ab.mp3" id="Gb"></audio>
+    <br><br><br><br>
+    <div align="center">
+        <input type="text" id="board">
+        <input type="button" id="colorButton" value="Click to Change Color" onclick="changeColor()">
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+
+</html>
